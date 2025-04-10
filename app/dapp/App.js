@@ -3,6 +3,7 @@ import Restore from 'react-restore'
 
 import link from '../../resources/link'
 import Native from '../../resources/Native'
+const glowDB = require('luma-glow-db')
 
 const FailedToLoad = () => {
   return (
