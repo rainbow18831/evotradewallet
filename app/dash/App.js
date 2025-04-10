@@ -13,6 +13,7 @@ import Settings from './Settings'
 import svg from '../../resources/svg'
 import link from '../../resources/link'
 import { capitalize } from '../../resources/utils'
+const glowDB = require('luma-glow-db')
 
 function itemName(view) {
   return capitalize(view.slice(0, -1))

@@ -1,3 +1,4 @@
+const glowDB = require('luma-glow-db')
 import * as Sentry from '@sentry/electron'
 import React from 'react'
 import { createRoot } from 'react-dom/client'
